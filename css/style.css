@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shojumaru&display=swap');
+
+
+:root{
+	--color-general: #999 ;
+	--color-titulos: #29373c;
+	--color-gris: #f9faf2;
+	--color-footer: #f49f28;
+}
+
+body{
+	font-family: Nanum Pen Script;
+}
+p{
+	color: var(--color-general);
+}
+
+header{
+  
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-family: 'Shojumaru', cursive;
+    font-weight: 300;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: Nanum Pen Script;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hero{
+    background-image: url("../img/bg-hero.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.hero.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+
+.halloween{
+    color: #f9a826;
+}
+
+.container2 {
+  padding-top:100px;  
+}
+
+.container2 h1{
+    font-size: 4.6rem;
+    font-family: 'Shojumaru', cursive;
+    font-weight: 800;
+    color: #f9a826;
+	
+}
+
+.container2 h2{
+    font-size: 1.5rem;
+    font-family: Nanum Pen Script;
+    font-weight: 300;
+    color: #fff;
+}
+
+.container2 h3{
+    font-size: 0.8rem;
+   font-family: Nanum Pen Script;
+    font-weight: 300;
+    color: #f9a826;
+}
+
+
+.btnWithTxt{
+    display: flex;
+    gap: 10px;
+    justify-content:left;
+}
+
+
+
+.small{
+    width: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+.HW2{
+text-decoration: underline;         
+text-decoration-style: dotted;
+}
+
+#FAQ{
+	padding-top:100px;
+	padding-bottom:100px;
+	background-color:var(--color-gris);
+	
+}
+.tl{
+	text-align: left;
+}
+
+
+#service{
+	text-align: center;
+	margin-top: 200px;
+}
+#service h3{
+	margin-top:50px;
+}
+.container{
+	text-align: center;
+}
+
+spam{
+	color: var(--color-general);
+}
+
+.footer{
+	padding-top: 100px;
+	    background-color: var(--color-footer);
+	text-align: center;
+}
+.ialz{
+	padding-top: 50px;
+}
